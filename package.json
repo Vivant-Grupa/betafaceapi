@@ -1,6 +1,6 @@
 {
   "name": "betafaceapi",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "OpenAPI client for betafaceapi",
   "author": "mtyszczak",
   "contributors": [
@@ -22,7 +22,7 @@
     "lib/**/*"
   ],
   "scripts": {
-    "build": "tsc --outDir dist/",
+    "build": "tsc",
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
