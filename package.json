@@ -1,0 +1,35 @@
+{
+  "name": "betafaceapi",
+  "version": "0.1.0",
+  "description": "OpenAPI client for betafaceapi",
+  "author": "mtyszczak",
+  "contributors": [
+    { "name": "OpenAPI-Generator Contributors" }
+  ],
+  "keywords": [
+    "axios",
+    "typescript",
+    "openapi-client",
+    "openapi-generator",
+    "betafaceapi",
+    "betaface",
+    "api"
+  ],
+  "license": "Unlicense",
+  "main": "./lib/index.js",
+  "typings": "./lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc --outDir dist/",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.11.5",
+    "typescript": "^3.6.4"
+  }
+}
